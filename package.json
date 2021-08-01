@@ -1,0 +1,8 @@
+{
+    "name": "googletest",
+    "version": "1.11.0",
+    "namespace": "googletest",
+    "depends": [
+        "abseil@2020.9.23"
+    ]
+}

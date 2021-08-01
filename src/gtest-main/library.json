@@ -1,0 +1,7 @@
+{
+    "name": "gtest-main",
+    "uses": [
+        "abseil/abseil",
+        "googletest/gtest"
+    ]
+}

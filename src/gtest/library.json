@@ -1,0 +1,6 @@
+{
+    "name": "gtest",
+    "uses": [
+        "abseil/abseil"
+    ]
+}

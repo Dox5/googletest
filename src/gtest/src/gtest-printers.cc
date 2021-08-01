@@ -53,7 +53,7 @@
 #include <type_traits>
 
 #include "gtest/internal/gtest-port.h"
-#include "src/gtest-internal-inl.h"
+#include "gtest-internal-inl.h"
 
 namespace testing {
 
@@ -418,7 +418,7 @@ void PrintTo(const char* s, ostream* os) { PrintCStringTo(s, os); }
 void PrintTo(const char8_t* s, ostream* os) { PrintCStringTo(s, os); }
 #endif
 
-void PrintTo(const char16_t* s, ostream* os) { PrintCStringTo(s, os); }
+//void PrintTo(const char16_t* s, ostream* os) { PrintCStringTo(s, os); }
 
 void PrintTo(const char32_t* s, ostream* os) { PrintCStringTo(s, os); }
 
