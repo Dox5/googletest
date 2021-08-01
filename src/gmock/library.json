@@ -1,6 +1,0 @@
-{
-    "name": "gmock",
-    "uses": [
-        "abseil/abseil"
-    ]
-}
